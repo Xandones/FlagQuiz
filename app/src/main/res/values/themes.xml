@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- The following line removes the ActionBar on the top of the screen -->
+    <style name="Theme.FlagQuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/button</item>
+        <item name="colorPrimaryVariant">@color/button</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- The tag bellow sets the app to fullscreen (removes info about battery, time, warnings, etc.) -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
